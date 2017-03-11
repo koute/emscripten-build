@@ -75,7 +75,7 @@ popd # emscripten-fastcomp
 mkdir destdir
 install -d destdir/emscripten-fastcomp
 install -m755 emscripten-fastcomp/build/bin/* destdir/emscripten-fastcomp
-strip emscripten-fastcomp/*
+strip destdir/emscripten-fastcomp/*
 install -m644 emscripten-fastcomp/emscripten-version.txt destdir/emscripten-fastcomp/emscripten-version.txt
 rm destdir/emscripten-fastcomp/{*-test,llvm-lit}
 
