@@ -8,4 +8,4 @@ export OUTPUT=emscripten-$VERSION-$RELEASE-$TARGET.tgz
 export COMMIT_AUTHOR_EMAIL="travis-ci@exia.io"
 export ENCRYPTION_LABEL="f35664a5440a"
 
-export BUILD_CMAKE=true
+export INSTALL_CMAKE=true
