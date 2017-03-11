@@ -4,7 +4,7 @@ os:
   - linux
 
 before_script:
-    - git clone git@github.com:koute/ci-helpers.git
+    - git clone https://github.com/koute/ci-helpers.git
 
 script: bash ./ci-helpers/ci.sh
 
