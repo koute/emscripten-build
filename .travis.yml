@@ -3,6 +3,14 @@ language: cpp
 os:
   - linux
 
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-4.7
+    - g++-4.7
+
 before_script:
     - git clone https://github.com/koute/ci-helpers.git
 
