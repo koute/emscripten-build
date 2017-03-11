@@ -1,21 +1,10 @@
 language: cpp
 
+dist: trusty
+sudo: false
+
 os:
   - linux
-
-install:
-  - export CC="gcc-4.7"
-  - export CXX="g++-4.7"
-
-addons:
-  apt:
-    sources:
-    - ubuntu-toolchain-r-test
-    packages:
-    - gcc-4.7
-    - g++-4.7
-    - gcc-multilib
-    - g++-multilib
 
 before_script:
     - git clone https://github.com/koute/ci-helpers.git
