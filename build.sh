@@ -83,7 +83,6 @@ install -d destdir/emscripten
 cp -rup \
     emscripten/em* \
     emscripten/cmake \
-    emscripten/site \
     emscripten/src \
     emscripten/system \
     emscripten/third_party \
