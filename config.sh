@@ -1,7 +1,7 @@
 #!/usr/bin/false
 
 export VERSION=1.37.3
-export RELEASE=1
+export RELEASE=2
 
 export OUTPUT=emscripten-$VERSION-$RELEASE-$TARGET.tgz
 
