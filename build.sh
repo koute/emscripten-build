@@ -37,10 +37,6 @@ popd # emscripten-fastcomp
 
 pushd emscripten
 sed '1s|python$|python2|' -i $(find third_party tools -name \*.py) emrun
-sed -e "s|getenv('EMSCRIPTEN')|getenv('CARGO_WEB_EMSCRIPTEN')|" \
-    -e "s|getenv('LLVM')|getenv('CARGO_WEB_LLVM')|" \
-    -e "s|getenv('BINARYEN')|getenv('CARGO_WEB_BINARYEN')|" \
-    -i tools/settings_template_readonly.py
 popd # emscripten
 
 ##
