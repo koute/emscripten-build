@@ -59,7 +59,7 @@ cmake .. \
     -DLLVM_INCLUDE_TESTS=OFF \
     -DCLANG_INCLUDE_TESTS=OFF
 
-make -j 4
+make -j 3
 
 popd # build
 popd # emscripten-fastcomp
