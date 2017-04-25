@@ -32,7 +32,7 @@ mv "emscripten-fastcomp-clang-$VERSION" emscripten-fastcomp-clang
 ##
 
 pushd emscripten-fastcomp
-ln -s ../emscripten-fastcomp-clang tools/clang
+ln -s ../../emscripten-fastcomp-clang tools/clang
 popd # emscripten-fastcomp
 
 pushd emscripten
